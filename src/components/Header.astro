@@ -1,0 +1,17 @@
+---
+import Navigation from './Navigation.astro';
+import Hamburger from './Hamburger.astro';
+import ThemeIcon from './ThemeIcon.astro';
+---
+
+<header>
+	<nav>
+		<Hamburger />
+		<ThemeIcon />
+		<div class="nav-links">
+			<Navigation title="Inicio" slug="/" />
+			<Navigation title="Acerca de mí" slug="/about" />
+			<Navigation title="Blog" slug="/blog" />
+		</div>
+	</nav>
+</header>
